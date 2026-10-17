@@ -24,6 +24,9 @@ const manifest = {
   ],
   types: ['movie', 'series'],
   catalogs: [],
+  behaviorHints: {
+    configurable: true
+  },
   config: [
     {
       key: 'debridService',
